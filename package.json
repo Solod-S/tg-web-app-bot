@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "startdemon": "nodemon index.js",
     "startnode": "pm2 start --name 'tg-bot-1' index.js --watch",
     "stop": "pm2 stop index.js",
