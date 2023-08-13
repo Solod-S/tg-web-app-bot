@@ -4,8 +4,13 @@
   "main": "index.js",
   "scripts": {
     "startdemon": "nodemon index.js",
-    "start": "pm2 start index.js --watch",
+    "start": "pm2 start --name 'tg-bot-1' index.js --watch",
     "stop": "pm2 stop index.js",
+    "stoppm2": "pm2 stop server.js",
+    "stopall": "pm2 stop all",
+    "logs": "pm2 logs",
+    "list": "pm2 list",
+    "listen": "pm2 listen server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
