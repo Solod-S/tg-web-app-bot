@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "startdemon": "nodemon index.js",
-    "start": "pm2 start --name 'tg-bot-1' index.js --watch",
+    "startnode": "pm2 start --name 'tg-bot-1' index.js --watch",
     "stop": "pm2 stop index.js",
     "stoppm2": "pm2 stop server.js",
     "stopall": "pm2 stop all",
